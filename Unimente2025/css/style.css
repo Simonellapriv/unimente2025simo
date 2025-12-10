@@ -1,0 +1,710 @@
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 45px;
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #241747;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 23px;
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  font-weight: 550;
+}
+
+li {
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+}
+
+
+
+footer {
+  margin-top: 100px;
+  background-color: #908ba9;
+  padding: 15px;
+  text-align: right;
+}
+
+footer a {
+  font-family: "League Spartan", sans-serif;
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+
+
+header {
+  display: flex;
+  margin: 0;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+header img {
+  margin-right: 500px;
+  max-width: 100%;
+  height: 100%;
+}
+
+nav ul {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 20px;
+  padding: 20px;
+  gap: 40px;
+  list-style: none;
+}
+
+nav ul li.active a {
+  color: #908ba9;
+  text-decoration: underline;
+}
+
+ul a {
+  text-decoration: none;
+  font-family: "League Spartan", sans-serif;
+  color: black;
+  font-weight: bold;
+}
+
+ul a:hover {
+  text-decoration: underline;
+}
+
+
+.hero {
+  display: grid;
+  padding: 100px 0;
+  justify-content: space-between;
+  grid-template-columns: 50% 50%;
+  justify-items: center;
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.hero img {
+  max-width: 100%;
+}
+
+.hero p {
+  padding-top: 30px;
+  font-weight: bold;
+  font-size: 40px;
+  max-width: 20ch;
+  text-transform: uppercase;
+  line-height: 42px;
+}
+
+
+.content {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+
+.testata {
+  width: 100%;
+  background-color: #a7ddd8;
+  padding: 60px 0;
+}
+
+.testata p b {
+  color: #908ba9;
+}
+
+.blocco-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blocco-1 h2 {
+  color: #908ba9;
+}
+
+.testo {
+}
+
+.testo:before {
+  display: block;
+  content: "";
+  float: left;
+  width: 9px;
+  height: 100%;
+  margin-right: 80px;
+  background-color: #a7ddd8;
+}
+
+.elenco-cosa-puoi-fare ul {
+  list-style-type: decimal;
+}
+
+.titolo {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 100px;
+}
+
+.titolo h1 {
+  margin-bottom: 50px;
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.titolo h2 {
+  margin: 0;
+  font-size: 25px;
+}
+
+.titolo img {
+  max-width: 100%;
+  max-height: 100%;
+  margin-left: 250px;
+}
+
+.obiettivo {
+  margin-bottom: 100px;
+}
+
+.titolo-with-ball {
+  display: flex;
+  align-items: center;
+}
+
+.titolo-with-ball .ball {
+  width: 150px;
+  height: 150px;
+  font-family: "League Spartan", sans-serif;
+  font-size: 128px;
+  color: white;
+  background-color: #908ba9;
+  text-align: center;
+  border-radius: 100%;
+  font-weight: bold;
+  line-height: 150px;
+}
+.titolo-with-ball.ball-green .ball {
+  background-color: #a7ddd8;
+}
+
+.titolo-with-ball h1 {
+  font-size: 50px;
+  color: #908ba9;
+  margin-left: 50px;
+  margin-bottom: 0;
+}
+.corpo.no-space {
+  padding-top: 50px;
+}
+.info-grafica {
+  display: flex;
+  padding-top: 100px;
+  justify-content: space-between;
+}
+
+.info-grafica li {
+  width: 526px;
+  line-height: 1, 5;
+  margin-bottom: 15px;
+}
+
+.info-grafica img {
+  max-width: 303px;
+  max-height: 304px;
+}
+
+.colore-1 {
+  color: #4e4772;
+  font-weight: bold;
+}
+
+.colore-2 {
+  color: #a7ddd8;
+  font-weight: bold;
+}
+
+.colore-3 {
+  color: #241747;
+  font-weight: bold;
+}
+
+.testata-2 {
+  padding-top: 100px;
+  align-items: center;
+  display: flex;
+}
+
+.blocco-2 h1 {
+  font-size: 40px;
+  color: #908ba9;
+}
+
+.blocco-2 p {
+  font-size: 25px;
+  font-weight: bold;
+}
+.blocco-2 {
+  display: flex;
+}
+.blocco-2 img {
+  width: 240px;
+  height: 233px;
+  margin-top: 50px;
+}
+
+.corpo {
+  padding-top: 100px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.corpo h1 {
+  color: #241747;
+  margin-bottom: 50px;
+  font-size: 40px;
+}
+
+.corpo li {
+  line-height: 1, 5;
+  margin-bottom: 15px;
+}
+
+.corpo-2 {
+  margin-bottom: 100px;
+}
+
+.info-box {
+  border: none;
+  border-radius: 104px;
+  background-color: #a7ddd8;
+  margin-top: 100px;
+  padding: 70px;
+  box-sizing: border-box;
+}
+
+.info-box h1 {
+  font-size: 40px;
+  margin: 0;
+  font-weight: 800;
+}
+
+.info-box p {
+  padding-bottom: 0;
+}
+
+.info-box-purple {
+  background-color: #241747;
+}
+
+.info-box-purple h1 {
+  color: #a7ddd8;
+}
+
+.info-box-purple p {
+  color: white;
+}
+
+.info-box-purple a p {
+  color: #a7ddd8;
+}
+
+.info-gruppo {
+  background-color: #241747;
+
+}
+.info-gruppo .content-box {
+  max-width: 100%;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 50px;
+  justify-items: center;
+  align-items: center;
+}
+
+.box img {
+  margin: 0;
+}
+
+.box h1 {
+  margin: 0;
+  color: #a7ddd8;
+  font-size: 35px;
+}
+
+.box {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-weight: bold;
+  width: 650px;
+}
+
+
+.card-capire-cosa-stai-vivendo {
+  padding-top: 100px;
+}
+.card-capire-cosa-stai-vivendo img {
+  margin-left: 20%;
+}
+.card-capire-cosa-stai-vivendo p {
+  width: 694px;
+}
+.bottone a {
+  text-transform: uppercase;
+  font-family: "League Spartan", sans-serif;
+  text-decoration: none;
+  color: #fffef5;
+  text-align: center;
+  display: block;
+  line-height: 71px;
+  font-size: 23px;
+}
+
+.section-verde {
+  background-color: #a6ddd8;
+  padding: 80px 0;
+  margin-top: 100px;
+}
+.card-spazio-di-ascolto img {
+  margin-left: 20%;
+}
+.card-spazio-di-ascolto p {
+  width: 694px;
+}
+
+.bottoni-blocco {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20%;
+}
+
+.freccia-1 img {
+  cursor: pointer;
+  transition:
+    trasnform 0.3s ease,
+    box-shasow 0.3s ease;
+}
+
+.freccia-1 img:hover {
+  transform: scale(1.05);
+}
+
+.freccia-2 img {
+  cursor: pointer;
+  transition:
+    trasnform 0.3s ease,
+    box-shasow 0.3s ease;
+}
+
+.freccia-2 img:hover {
+  transform: scale(1.05);
+}
+.bottone-2 {
+  background-color: #4e4772;
+  border: none;
+  border-radius: 52px;
+  font-weight: bold;
+  width: 370px;
+  height: 68px;
+  cursor: pointer;
+  transition:
+    trasnform 0.3s ease,
+    box-shasow 0.3s ease;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    trasnform 0.3s ease,
+    box-shasow 0.3s ease;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  line-height: 68px;
+  margin: 100px auto 0;
+}
+
+.bottone-2:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.bottone-2 a {
+  color: white;
+  text-decoration: none;
+}
+.bottone {
+  background-color: #241747;
+  color: white;
+  border: none;
+  border-radius: 44px;
+  font-weight: bold;
+  width: 370px;
+  height: 71px;
+  cursor: pointer;
+  transition:
+    trasnform 0.3s ease,
+    box-shasow 0.3s ease;
+  text-decoration: none;
+  margin: 80px auto 0;
+  padding: 0 50px;
+}
+
+.bottone:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+}
+
+.bottone p {
+  color: white;
+  padding-left: 50px;
+  padding-top: 15px;
+  text-decoration: none;
+}
+
+
+.bottone-3:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.bottone-3 p {
+  color: white;
+  padding-left: 100px;
+  padding-top: 15px;
+}
+
+.card img {
+  width: 206px;
+  height: 200px;
+}
+.card {
+  background-color: #241747;
+  border: none;
+  border-radius: 126px;
+  font-weight: bold;
+  width: 940px;
+  height: 251px;
+  cursor: pointer;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  text-decoration: none;
+  margin-top: 80px;
+
+  display: flex;
+  align-items: center;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-2 img {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.card a {
+  display: flex;
+  text-decoration: none;
+}
+.contenuto p {
+  color: white;
+  width: 530px;
+}
+
+.contenuto {
+  margin-left: 40px;
+}
+
+.contenuto h1 {
+  color: #a7ddd8;
+  font-size: 40px;
+}
+
+.card-block {
+  margin-top: 120px;
+}
+
+.card-3 img {
+  width: 206px;
+  height: 200px;
+  margin-left: 35px;
+}
+.card-3 {
+  background-color: #241747;
+  border: none;
+  border-radius: 126px;
+  font-weight: bold;
+  width: 940px;
+  height: 251px;
+  cursor: pointer;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  text-decoration: none;
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.contenuto-2 {
+  margin-left: 50px;
+}
+.card-3 h1 {
+  font-size: 40px;
+  color: #a7ddd8;
+}
+
+.contenuto-2 p {
+  font-size: 25px;
+  color: white;
+}
+.card-3:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-3 a {
+  display: flex;
+  text-decoration: none;
+}
+
+.card-block-2 a {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  header {
+    display: block;
+  }
+
+  nav ul {
+    display: block;
+  }
+  .hero {
+    display: block;
+    text-align: center;
+  }
+  .content {
+    max-width: 80%;
+    display: block;
+  }
+
+  .blocco-1 {
+    display: block;
+  }
+  .card-capire-cosa-stai-vivendo img,
+  .card-spazio-di-ascolto img {
+    display: block;
+    margin: 0 auto;
+  }
+  .card-capire-cosa-stai-vivendo p {
+    width: auto;
+  }
+  .bottone {
+    width: 100%;
+    padding: 0;
+  }
+  .bottone a {
+    font-size: 18px;
+  }
+  .titolo {
+    display: block;
+  }
+  .testo::before {
+    display: none;
+  }
+  .titolo img {
+    margin: 20px auto 0;
+    display: block;
+  }
+.info-gruppo .content-box {
+    display: block;
+    grid-template-columns: 100%;
+    gap: 100px;
+    padding: 50px 0;
+    margin: 0 auto;
+    
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    height: 100%;
+    border-radius: 4px;
+  }
+  .card a {
+    display: block;
+  }
+
+  .card-3 {
+    width: 100%;
+    display: block;
+    height: 100%;
+    padding: 50px;
+    border-radius: 10px;
+  }
+
+  .card-2 img {
+    margin: 20px auto 0;
+    display: block;
+    padding-top: 25px;
+  }
+  .contenuto {
+    margin: 0;
+    padding: 20px;
+  }
+  .contenuto h1 {
+    font-size: 30px;
+  }
+  .contenuto p {
+    width: 100%;
+  }
+  .testata-2 {
+    display: block;
+  }
+
+  .testata-2 img {
+    margin: 0 auto;
+    display: block;
+  }
+  .info-box {
+    padding: 20px;
+    border-radius: 4px;
+  }
+  .bottone-2 {
+    font-size: 21px;
+    width: 100%;
+  }
+  .titolo-with-ball {
+    display: block;
+  }
+}
