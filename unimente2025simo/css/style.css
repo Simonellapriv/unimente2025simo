@@ -1,4 +1,4 @@
-
+/*generale*/
 body {
   font-family: "Inter", sans-serif;
   background-color: #f5f5f5;
@@ -34,7 +34,7 @@ li {
   line-height: 1.5;
 }
 
-
+/*footer*/
 
 footer {
   margin-top: 100px;
@@ -54,7 +54,7 @@ footer a:hover {
   text-decoration: underline;
 }
 
-
+/*header*/
 
 header {
   display: flex;
@@ -93,7 +93,7 @@ ul a {
 ul a:hover {
   text-decoration: underline;
 }
-
+/*hero*/
 
 .hero {
   display: grid;
@@ -119,13 +119,13 @@ ul a:hover {
   line-height: 42px;
 }
 
-
+/*elemento generale sul contenuto*/
 .content {
   max-width: 1024px;
   margin: 0 auto;
 }
 
-
+/*elementi di testo*/
 .testata {
   width: 100%;
   background-color: #a7ddd8;
@@ -333,7 +333,7 @@ ul a:hover {
 
 .info-gruppo {
   background-color: #241747;
-
+  display: flex;
 }
 .info-gruppo .content-box {
   max-width: 100%;
@@ -362,7 +362,7 @@ ul a:hover {
   font-weight: bold;
   width: 650px;
 }
-
+/*card e bottoni*/
 
 .card-capire-cosa-stai-vivendo {
   padding-top: 100px;
@@ -487,6 +487,19 @@ ul a:hover {
   text-decoration: none;
 }
 
+/* .bottone-3{ */
+/*     background-color: #241747; */
+/*     color: white; */
+/*     border: none; */
+/*     border-radius:44px; */
+/*     font-weight: bold; */
+/*     width: 466px; */
+/*     height: 71px; */
+/*     cursor: pointer; */
+/*     transition: trasnform 0.3s ease, box-shasow 0.3s ease; */
+/*     text-decoration: none; */
+/*     margin-top: 80px; */
+/* } */
 
 .bottone-3:hover {
   transform: scale(1.05);
@@ -600,6 +613,7 @@ ul a:hover {
 .card-block-2 a {
   text-decoration: none;
 }
+/*responsive*/
 
 @media (max-width: 768px) {
   header {
@@ -615,7 +629,6 @@ ul a:hover {
   }
   .content {
     max-width: 80%;
-    display: block;
   }
 
   .blocco-1 {
@@ -646,13 +659,11 @@ ul a:hover {
     margin: 20px auto 0;
     display: block;
   }
-.info-gruppo .content-box {
+  .info-grafica {
     display: block;
-    grid-template-columns: 100%;
-    gap: 100px;
-    padding: 50px 0;
-    margin: 0 auto;
-    
+  }
+  .info-grafica li {
+    width: 100%;
   }
 
   .card {
@@ -663,14 +674,6 @@ ul a:hover {
   }
   .card a {
     display: block;
-  }
-
-  .card-3 {
-    width: 100%;
-    display: block;
-    height: 100%;
-    padding: 50px;
-    border-radius: 10px;
   }
 
   .card-2 img {
